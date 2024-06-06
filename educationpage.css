@@ -1,0 +1,140 @@
+body {
+    font-family: 'Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #3e3e3e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Baskerville', serif;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #8a715a;
+}
+
+.education-section {
+    max-width: 1000px;
+    margin: 100px 20px 40px;
+    width: 100%;
+}
+
+.education-content {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.education-item {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #f8f4f0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.education-item:hover {
+    transform: translateY(-10px);
+}
+
+.education-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-right: 2px solid #e4e4e4;
+}
+
+.education-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.education-details h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    margin: 0;
+    color: #8a715a;
+    transition: color 0.3s;
+}
+
+.education-details h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.education-details h2 a:hover {
+    color: #3e3e3e;
+}
+
+.education-details p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #3e3e3e;
+}
+
+.education-details span {
+    font-size: 0.9em;
+    color: #8a715a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #3e3e3e;
+}
