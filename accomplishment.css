@@ -1,0 +1,162 @@
+body {
+    font-family: 'Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #3e3e3e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Baskerville', serif;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #8a715a;
+}
+
+.accomplishments-section {
+    max-width: 1000px;
+    margin: 100px 20px 40px;
+    width: 100%;
+}
+
+.accomplishments-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.accomplishments-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: #f8f4f0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: transform 0.3s;
+    align-items: center;
+}
+
+.accomplishments-item:hover {
+    transform: translateY(-10px);
+}
+
+.accomplishments-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-right: 2px solid #e4e4e4;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.accomplishments-details {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accomplishments-details h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    margin: 0;
+    color: #8a715a;
+    transition: color 0.3s;
+}
+
+.accomplishments-details h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.accomplishments-details h3 a:hover {
+    color: #3e3e3e;
+}
+
+.accomplishments-details p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #3e3e3e;
+}
+
+.accomplishments-details span {
+    font-size: 0.9em;
+    color: #8a715a;
+}
+
+.key-responsibilities {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #3e3e3e;
+}
+
+.key-responsibilities li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.key-responsibilities li::before {
+    content: '•';
+    color: #8a715a;
+    position: absolute;
+    left: 0;
+}
+
+.separator {
+    height: 1px;
+    background-color: #e4e4e4;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #3e3e3e;
+}
